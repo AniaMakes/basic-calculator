@@ -1,12 +1,7 @@
-const multiply = (a,b) => {
+export const multiply = (a,b) => {
     return a*b;
 }
 
-const divide = (a,b) => {
+export const divide = (a,b) => {
     return a/b;
-}
-
-export default {
-    multiply,
-    divide
 }
